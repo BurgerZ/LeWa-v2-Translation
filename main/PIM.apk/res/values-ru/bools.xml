@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <bool name="config_allow_import_from_sdcard">true</bool>
     <bool name="config_import_all_vcard_from_sdcard_automatically">false</bool>
