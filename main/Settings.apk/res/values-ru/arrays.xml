@@ -24,6 +24,7 @@
         <item>30 секунд</item>
         <item>1 минута</item>
         <item>2 минуты</item>
+        <item>5 минут</item>
         <item>10 минут</item>
         <item>30 минут</item>
     </string-array>
@@ -97,7 +98,7 @@
         <item>Отличный</item>
     </string-array>
     <string-array name="wifi_sleep_policy_entries">
-        <item>При выключенном экране</item>
+        <item>При выключении экране</item>
         <item>Никогда, если есть питание от сети</item>
         <item>Никогда</item>
     </string-array>
@@ -136,11 +137,6 @@
         <item>Оповещение</item>
         <item>Виброзвонок</item>
     </string-array>
-    <string-array name="vpn_openvpn_set_tls_auth_key_direction_entries">
-        <item>Нет</item>
-        <item>0</item>
-        <item>1 (Клиент по умолчанию)</item>
-    </string-array>
     <string-array name="apn_auth_entries">
         <item>Нет</item>
         <item>PAP</item>
@@ -167,34 +163,25 @@
         <item>Выключено</item>
         <item>Включено</item>
     </string-array>
-    <string-array name="brightnessWidget">
-        <item>Авто/Тусклый/40%/100%</item>
-        <item>Авто/Тусклый/25%/75%/100%</item>
-        <item>Авто/25%/100%</item>
-        <item>Тусклый/100%</item>
-    </string-array>
-    <string-array name="networkModesWidget">
-        <item>2G/3G+2G</item>
-        <item>Только 2G/3G</item>
-        <item>2G/3G Только/3G+2G</item>
-    </string-array>
-    <string-array name="screenTimeoutWidget">
-        <item>15сек/1мин/5мин</item>
-        <item>30сек/2мин/5мин</item>
-    </string-array>
-    <string-array name="ringModeWidget">
-        <item>Звук+Вибро/Вибро</item>
-        <item>Звук/Вибро</item>
-        <item>Звук/Беззвучный</item>
-        <item>Звук+Вибро/Вибро/Беззвучный</item>
-        <item>Звук/Вибро/Беззвучный</item>
-    </string-array>
     <string-array name="backgroundWidget">
         <item>Серый</item>
         <item>Прозрачный</item>
     </string-array>
     <string-array name="location_entries_gps_source">
         <item>Исп. встроенный GPS</item>
+    </string-array>
+    <string-array name="entries_install_location">
+        <item>Автоматически</item>
+        <item>Внутренняя память</item>
+        <item>SD-карта</item>
+    </string-array>
+    <string-array name="battery_style_entries">
+        <item>картинка</item>
+        <item>цифры</item>
+    </string-array>
+    <string-array name="alertdialog_sytle">
+        <item>внизу</item>
+        <item>вверху</item>
     </string-array>
     <string-array name="bluetooth_discoverable_duration_entries">
         <item>60 сек.</item>

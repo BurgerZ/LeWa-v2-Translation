@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string name="app_name">Программа установки пакета</string>
-    <string name="install">Install</string>
+    <string name="install">Да</string>
     <string name="done">Готово</string>
     <string name="security_settings_desc">Разрешить этому приложению:</string>
     <string name="cancel">Отмена</string>

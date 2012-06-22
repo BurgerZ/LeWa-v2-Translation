@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="app_name">QuickPic</string>
+    <string name="app_name">Галерея</string>
     <string name="app_info">Автор: %s\nБлог: %s\nEmail: %s\n\n	Легковесная программа для просмотра изображений а-ля iPhone.\n\n	Есть вопросы? Пишите!</string>
     <string name="about">О программе</string>
     <string name="add">Добавить</string>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="cancel">Отмена</string>
     <string name="copy">Копировать</string>
@@ -103,26 +103,26 @@
     <string name="yesterday">Вчера</string>
     <string name="today">Сегодня</string>
     <string name="tomorrow">Завтра</string>
-    <string name="hour_minute_24">%-k:%M</string>
-    <string name="hour_minute_ampm">%-l:%M %p</string>
-    <string name="hour_minute_cap_ampm">%-l:%M %^p</string>
+    <string name="hour_minute_24" formatted="false">%-k:%M</string>
+    <string name="hour_minute_ampm" formatted="false">%-l:%M %p</string>
+    <string name="hour_minute_cap_ampm" formatted="false">%-l:%M %^p</string>
     <string name="twelve_hour_time_format">h:mm a</string>
     <string name="twenty_four_hour_time_format">H:mm</string>
-    <string name="numeric_date">%d.%m.%Y</string>
+    <string name="numeric_date" formatted="false">%d.%m.%Y</string>
     <string name="numeric_date_format">dd.MM.yyyy</string>
-    <string name="numeric_date_template">%s.%s.%s</string>
-    <string name="month_day_year">%-e %B %Y г.</string>
-    <string name="time_of_day">%-k:%M:%S</string>
-    <string name="date_and_time">%-k:%M:%S, %d.%m.%Y</string>
+    <string name="numeric_date_template" formatted="false">%s.%s.%s</string>
+    <string name="month_day_year" formatted="false">%-e %B %Y г.</string>
+    <string name="time_of_day" formatted="false">%-k:%M:%S</string>
+    <string name="date_and_time" formatted="false">%-k:%M:%S, %d.%m.%Y</string>
     <string name="date_time">%2$s, %1$s</string>
     <string name="time_date">%1$s, %3$s</string>
-    <string name="abbrev_month_day_year">%d.%m.%Y</string>
-    <string name="month_day">%-e %B</string>
+    <string name="abbrev_month_day_year" formatted="false">%d.%m.%Y</string>
+    <string name="month_day" formatted="false">%-e %B</string>
     <string name="month">%-B</string>
-    <string name="month_year">%-B %Y</string>
-    <string name="abbrev_month_day">%-e %b</string>
+    <string name="month_year" formatted="false">%-B %Y</string>
+    <string name="abbrev_month_day" formatted="false">%-e %b</string>
     <string name="abbrev_month">%-b</string>
-    <string name="abbrev_month_year">%-b %Y</string>
+    <string name="abbrev_month_year" formatted="false">%-b %Y</string>
     <string name="time1_time2">%1$s - %2$s</string>
     <string name="date1_date2">%2$s - %5$s</string>
     <string name="numeric_md1_md2">%3$s.%2$s - %8$s.%7$s</string>
@@ -277,9 +277,16 @@
     <string name="screen_lock">Блокировка экрана</string>
     <string name="power_off">Выключение</string>
     <string name="reboot_system">Перезагрузить</string>
+	<string name="reboot_reboot">Перезагрузить</string>
+	<string name="reboot_recovery">Рекавери</string>
+    <string name="reboot_bootloader">Загрузчик</string>
+    <string name="reboot_bootmenu">Меню загрузки</string>
+    <string name="reboot_fastboot">Быстрая загрузка</string>
+    <string name="reboot_download">Загрузить</string>
     <string name="shutdown_progress">Выключение...</string>
     <string name="reboot_progress">Перезагрузка...</string>
     <string name="shutdown_confirm">Телефон будет выключен.</string>
+	<string name="reboot_confirm">Телефон будет перезагружен.</string>
     <string name="recent_tasks_title">Недавние</string>
     <string name="no_recent_tasks">Нет последних приложений.</string>
     <string name="global_actions">Параметры телефона</string>
@@ -297,6 +304,7 @@
     <string name="global_actions_airplane_mode_on_status">Режим полета ВКЛЮЧЕН</string>
     <string name="global_actions_airplane_mode_off_status">Режим полета ВЫКЛЮЧЕН</string>
     <string name="global_action_screenshot">Скриншот</string>
+	<string name="global_action_screenshot_desc">меню + громкость вниз</string>
     <string name="safeMode">Безопасный режим</string>
     <string name="android_system_label">Система Android</string>
     <string name="permgrouplab_costMoney">Платные услуги</string>
@@ -337,7 +345,9 @@
     <string name="permdesc_receiveEmergencyBroadcast">Позволяет приложению принимать и обрабатывать экстренные сообщения. Это разрешение доступно только для системных приложений.</string>
     <string name="permlab_sendSms">отправлять SMS-сообщения</string>
     <string name="permdesc_sendSms">Позволяет приложению отправлять SMS-сообщения. Вредоносные приложения могут отправлять сообщения без уведомления, что приведет к непредвиденным расходам.</string>
-    <string name="permlab_readSms">считывать SMS или MMS</string>
+    <string name="permlab_sendSmsNoConfirmation">Отправлять SMS-сообщения без подтверждения.</string>
+    <string name="permdesc_sendSmsNoConfirmation">Разрешить этому приложению отправку SMS-сообщений. Приложения смогут снимать деньги без вашего подтверждения.</string>
+	<string name="permlab_readSms">считывать SMS или MMS</string>
     <string name="permdesc_readSms">Позволяет приложению считывать SMS-сообщения, сохраненные на телефоне или SIM-карте. Вредоносные приложения могут считывать конфиденциальные сообщения.</string>
     <string name="permlab_writeSms">изменять SMS или MMS</string>
     <string name="permdesc_writeSms">Позволяет приложению перезаписывать SMS-сообщения, сохраненные на телефоне или SIM-карте. Вредоносные приложения могут удалить сообщения.</string>
@@ -421,7 +431,9 @@
     <string name="permdesc_movePackage">Позволяет приложению перемещать ресурсы приложения с внутренних на внешние носители и наоборот.</string>
     <string name="permlab_readLogs">считывать конфиденциальные данные журнала</string>
     <string name="permdesc_readLogs">Позволяет приложению считывать информацию из различных журналов системы. Приложение может получать сведения о работе пользователя с телефоном, которые могут содержать личную или конфиденциальную информацию.</string>
-    <string name="permlab_diagnostic">считывать/записывать данные в ресурсы, принадлежащие группе диагностики</string>
+    <string name="permlab_preventpower">Заменять кнопку выключения</string>
+    <string name="permdesc_preventpower">Разрешить приложению перезначать кнопку выключения</string>
+	<string name="permlab_diagnostic">считывать/записывать данные в ресурсы, принадлежащие группе диагностики</string>
     <string name="permdesc_diagnostic">Позволяет приложению считывать и записывать данные в любые ресурсы, принадлежащие группе диагностики (например, файлы в каталоге /dev). Это может повлиять на стабильность и безопасность системы. Эта возможность может быть использована ТОЛЬКО производителем или оператором для диагностики аппаратного обеспечения.</string>
     <string name="permlab_changeComponentState">включать или отключать компоненты приложения</string>
     <string name="permdesc_changeComponentState">Позволяет приложению отключать или включать компоненты другого приложения. Вредоносные приложения могут использовать это разрешение для отключения важных возможностей телефона. Это разрешение следует использовать с осторожностью, так как это может привести к несовместимости, нестабильности и неработоспособности компонентов приложения.</string>
@@ -465,7 +477,9 @@
     <string name="permdesc_recordAudio">Позволяет приложению получать доступ к пути аудиозаписи.</string>
     <string name="permlab_camera">снимать фото и видео</string>
     <string name="permdesc_camera">Позволяет приложению делать снимки и видео с помощью камеры в любое время.</string>
-    <string name="permlab_brick">отключать телефон</string>
+    <string name="permlab_rawAudio">Доступ к аудиоустройству</string>
+    <string name="permdesc_rawAudio">Разрешить приложению использовать драйвера аудио.</string>
+	<string name="permlab_brick">отключать телефон</string>
     <string name="permdesc_brick">Позволяет данному приложению отключить телефон навсегда. Это очень опасно.</string>
     <string name="permlab_reboot">принудительно перезагружать телефон</string>
     <string name="permdesc_reboot">Позволяет приложению принудительно перезагружать телефон.</string>
@@ -677,8 +691,12 @@
     <string name="lockscreen_sim_puk_locked_instructions">См. руководство пользователя или свяжитесь со службой поддержки.</string>
     <string name="lockscreen_sim_locked_message">SIM-карта заблокирована.</string>
     <string name="lockscreen_sim_unlock_progress_dialog_message">Разблокировка SIM-карты…</string>
-    <string name="lockscreen_too_many_failed_attempts_dialog_message">Количество неудачных попыток ввода графического ключа разблокировки: %d. \n\nПовторите попытку через %d с.</string>
-    <string name="lockscreen_failed_attempts_almost_glogin">Количество неудачных попыток ввода графического ключа разблокировки: %d. После %d неудачных попыток вам будет предложено разблокировать телефон с помощью учетных данных Google. \u0020\n\n Повторите попытку через %d с.</string>
+    <string name="lockscreen_too_many_failed_attempts_dialog_message" formatted="false">"Количество неудачных попыток ввода графического ключа разблокировки: %d. 
+
+Повторите попытку через %d с."</string>
+    <string name="lockscreen_failed_attempts_almost_glogin" formatted="false">"Количество неудачных попыток ввода графического ключа разблокировки: %d. После %d неудачных попыток вам будет предложено разблокировать телефон с помощью учетных данных Google.  
+
+ Повторите попытку через %d с."</string>
     <string name="lockscreen_too_many_failed_attempts_countdown">Повторите попытку через %d с.</string>
     <string name="lockscreen_forgot_pattern_button_text">Забыли графический ключ?</string>
     <string name="lockscreen_glogin_forgot_pattern">Снятие блокировки аккаунта</string>
@@ -696,15 +714,19 @@
     <string name="password_keyboard_label_symbol_key">\?123</string>
     <string name="password_keyboard_label_alpha_key">АБВ</string>
     <string name="password_keyboard_label_alt_key">ALT</string>
-    <string name="hour_ampm">%-l%P</string>
-    <string name="hour_cap_ampm">%-l%p</string>
+    <string name="hour_ampm" formatted="false">%-l%P</string>
+    <string name="hour_cap_ampm" formatted="false">%-l%p</string>
     <string name="factorytest_failed">Не удалось провести стандартный тест</string>
     <string name="factorytest_not_system">Действие FACTORY_TEST поддерживается только для пакетов, установленных в /system/app.</string>
     <string name="factorytest_no_action">Пакет, обеспечивающий действие FACTORY_TEST, не найден.</string>
     <string name="factorytest_reboot">Перезагрузка</string>
     <string name="js_dialog_title">Подтвердите действие на %s</string>
     <string name="js_dialog_title_default">JavaScript</string>
-    <string name="js_dialog_before_unload">Перейти с этой страницы?\n\n%s\n\nНажмите \"ОК\", чтобы продолжить, или \"Отмена\", чтобы остаться на текущей странице.</string>
+    <string name="js_dialog_before_unload">"Перейти с этой страницы?
+
+%s
+
+Нажмите \"ОК\", чтобы продолжить, или \"Отмена\", чтобы остаться на текущей странице."</string>
     <string name="save_password_label">Подтвердите</string>
     <string name="double_tap_toast">Совет: нажмите дважды, чтобы увеличить и уменьшить масштаб.</string>
     <string name="permlab_readHistoryBookmarks">считывать историю и закладки браузера</string>
@@ -846,8 +868,8 @@
     <string name="adb_net_enabled_notification_title">Network debugging enabled</string>
     <string name="adb_net_enabled_notification_message">Select to disable network debugging.</string>
     <string name="select_input_method">Выберите метод ввода</string>
-    <string name="fast_scroll_alphabet">\u0020ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
-    <string name="fast_scroll_numeric_alphabet">\u00200123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="fast_scroll_alphabet">" ABCDEFGHIJKLMNOPQRSTUVWXYZАБВГДЕЖЗИКЛМНОПРСТУФХЦЩШЫЭЮЯ"</string>
+    <string name="fast_scroll_numeric_alphabet">" 0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZАБВГДЕЖЗИКЛМНОПРСТУФХЦЩШЫЭЮЯ"</string>
     <string name="candidates_style">&lt;</string>
     <string name="ext_media_checking_notification_title">Подготовка карты SD</string>
     <string name="ext_media_checking_notification_message">Проверка ошибок.</string>

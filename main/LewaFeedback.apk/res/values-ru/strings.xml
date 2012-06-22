@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AndroidAdviceDemoActivity!</string>
+    <string name="app_name">Отзыв</string>
+    <string name="feedback_title">Отзыв</string>
+    <string name="feedback_added">Добавить</string>
+    <string name="feedback_text_default">Я хочу сказать что-то...</string>
+    <string name="feedback_send">Отправить</string>
+    <string name="feedback_piclen_default">0</string>
+    <string name="feedback_tag_len">KB</string>
+    <string name="result_layout_feedback_title">Отзыв</string>
+    <string name="result_layout_thanks1">Спасибо вам за вашу поддержку,</string>
+    <string name="result_layout_thanks2">Мы попробуем!</string>
+    <string name="result_layout_thanks3">Вы учавствуете в улучшении LeWa.</string>
+    <string name="result_layout_continue_feedback">Продолжить</string>
+    <string name="result_layout_finish">Готово</string>
+    <string name="feedback_sending_title">Подождите...</string>
+    <string name="feedback_sending_message">Ваше устройство отправлено...</string>
+    <string name="feedback_sending_fail_title">Ошибка отправки!</string>
+    <string name="feedback_sending_fail_button">Ok</string>
+    <string name="feedback_sending_fail_message">Ошибка сети!</string>
+    <string name="feedback_sending_fail_message0">Ошибка URL!</string>
+    <string name="feedback_sending_fail_message1">Неизвестный запрос!</string>
+    <string name="feedback_sending_fail_message2">Ошибка сервера!</string>
+    <string name="feedback_sending_fail_message3">Невозможно отправить пустое сообщение!</string>
+    <string name="feedback_sending_fail_message4">Ошибка подключения к серверу!</string>
+    <string name="feedback_sending_fail_message5">Сервер перегружен, пожалуйста, попробуйте отправить это позже!</string>
+    <string name="feedback_sending_process_connect">Подключение к серверу...</string>
+    <string name="feedback_sending_process_send_msg">Отправка сообщения...</string>
+    <string name="feedback_sending_process_send_file">Отправка файлов...</string>
+    <string name="feedback_sending_process_close">Получение данных...</string>
+    <string name="feedback_result_title">Простите!</string>
+    <string name="feedback_result_message">Ошибка программы!</string>
+    <string name="feedback_result_button">Ok</string>
+    <string name="feedback_addpic_title">Изображение в Отзыве</string>
+    <string name="feedback_addpic_delete">Удалить</string>
+    <string name="feedback_addpic_change">Изменить</string>
+    <string name="feedback_wifi_note">"Нет активного Wi-Fi подключения, размер данных превышает 300kb.Вы уверены, что хотите продолжить?"</string>
+</resources>

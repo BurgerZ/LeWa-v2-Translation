@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="config_import_vcard_type">default</string>
     <string name="config_export_vcard_type">default</string>
@@ -136,10 +136,54 @@
     <string name="simContacts_title">Контакты с SIM карты</string>
     <string name="noContactsHelpTextWithSyncForCreateShortcut">У вас нет никаких контактов для отображения. (Если вы только что добавили аккаунт, это может занять несколько минут, чтобы синхронизировать контакты.)</string>
     <string name="noContactsHelpTextForCreateShortcut">У вас нет никаких контактов для отображения.</string>
-    <string name="noContactsHelpText">У вас нет никаких контактов для отображения.\n\nЧтобы добавить контакты, нажмите <font fgcolor="#ffffffff"><b>Меню</b></font> и коснитесь:\n \n<li><font fgcolor="#ffffffff"><b> Добавить аккаунты или настроить аккаунт для синхронизации контактов\n</b></font></li> \n<li><font fgcolor="#ffffffff"><b> Новый контакт для создания нового контакта с нуля\n</b></font></li> \n<li><font fgcolor="#ffffffff"><b> Импорт/Экспорт\n</b></font></li>\n</string>
-    <string name="noContactsHelpTextWithSync">У вас нет никаких контактов для отображения. (Если вы только что добавили аккаунт, это может занять несколько минут, чтобы синхронизировать контакты.)\n\nЧтобы добавить контакты, нажмите <font fgcolor="#ffffffff"><b>Меню</b></font> и коснитесь:\n \n<li><font fgcolor="#ffffffff"><b> Добавить аккаунты или настроить аккаунт для синхронизации контактов\n</b></font></li> \n<li><font fgcolor="#ffffffff"><b> Показать варианты, чтобы изменить видимые контакты\n</b></font></li> \n<li><font fgcolor="#ffffffff"><b> Новый контакт для создания нового контакта с нуля\n</b></font></li> \n<li><font fgcolor="#ffffffff"><b> Импорт/Экспорт\n</b></font></li>\n</string>
-    <string name="noContactsNoSimHelpText">У вас нет никаких контактов для отображения.\n\nЧтобы добавить контакты, нажмите <font fgcolor="#ffffffff"><b>Меню</b></font> и коснитесь:\n \n<li><font fgcolor="#ffffffff"><b> Добавить аккаунты или настроить аккаунт для синхронизации контактов\n</b></font></li> \n<li><font fgcolor="#ffffffff"><b> Новый контакт для создания нового контакта с нуля\n</b></font></li> \n<li><font fgcolor="#ffffffff"><b> Импорт/Экспорт\n</b></font></li>\n</string>
-    <string name="noContactsNoSimHelpTextWithSync">У вас нет никаких контактов для отображения. (Если вы только что добавили аккаунт, это может занять несколько минут, чтобы синхронизировать контакты.)\n\nЧтобы добавить контакты, нажмите <font fgcolor="#ffffffff"><b>Меню</b></font> и коснитесь:\n \n<li><font fgcolor="#ffffffff"><b> Добавить аккаунты или настроить аккаунт для синхронизации контактов\n</b></font></li> \n<li><font fgcolor="#ffffffff"><b> Показать варианты, чтобы изменить видимые контакты\n</b></font></li> \n<li><font fgcolor="#ffffffff"><b> Новый контакт для создания нового контакта с нуля\n</b></font></li> \n<li><font fgcolor="#ffffffff"><b> Импорт/Экспорт\n</b></font></li>\n</string>
+    <string name="noContactsHelpText">"У вас нет никаких контактов для отображения.
+
+Чтобы добавить контакты, нажмите "<b><font fgcolor="#ffffffff">Меню</font></b>" и коснитесь:
+ 
+"<b><font fgcolor="#ffffffff"><li>" Добавить аккаунты или настроить аккаунт для синхронизации контактов
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>" Новый контакт для создания нового контакта с нуля
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>" Импорт/Экспорт
+"</li></font></b>"
+"</string>
+    <string name="noContactsHelpTextWithSync">"У вас нет никаких контактов для отображения. (Если вы только что добавили аккаунт, это может занять несколько минут, чтобы синхронизировать контакты.)
+
+Чтобы добавить контакты, нажмите "<b><font fgcolor="#ffffffff">Меню</font></b>" и коснитесь:
+ 
+"<b><font fgcolor="#ffffffff"><li>" Добавить аккаунты или настроить аккаунт для синхронизации контактов
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>" Показать варианты, чтобы изменить видимые контакты
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>" Новый контакт для создания нового контакта с нуля
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>" Импорт/Экспорт
+"</li></font></b>"
+"</string>
+    <string name="noContactsNoSimHelpText">"У вас нет никаких контактов для отображения.
+
+Чтобы добавить контакты, нажмите "<b><font fgcolor="#ffffffff">Меню</font></b>" и коснитесь:
+ 
+"<b><font fgcolor="#ffffffff"><li>" Добавить аккаунты или настроить аккаунт для синхронизации контактов
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>" Новый контакт для создания нового контакта с нуля
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>" Импорт/Экспорт
+"</li></font></b>"
+"</string>
+    <string name="noContactsNoSimHelpTextWithSync">"У вас нет никаких контактов для отображения. (Если вы только что добавили аккаунт, это может занять несколько минут, чтобы синхронизировать контакты.)
+
+Чтобы добавить контакты, нажмите "<b><font fgcolor="#ffffffff">Меню</font></b>" и коснитесь:
+ 
+"<b><font fgcolor="#ffffffff"><li>" Добавить аккаунты или настроить аккаунт для синхронизации контактов
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>" Показать варианты, чтобы изменить видимые контакты
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>" Новый контакт для создания нового контакта с нуля
+"</li></font></b>" 
+"<b><font fgcolor="#ffffffff"><li>" Импорт/Экспорт
+"</li></font></b>"
+"</string>
     <string name="noFavoritesHelpText">У Вас нет избранных</string>
     <string name="liveFolder_all_label">Все контакты</string>
     <string name="liveFolder_favorites_label">Помеченные</string>
@@ -200,7 +244,8 @@
     <string name="fail_reason_failed_to_read_files">Один или несколько файлов не удалось импортировать (%s).</string>
     <string name="fail_reason_unknown">Неизвестная ошибка</string>
     <string name="select_vcard_title">Выберите файл vCard</string>
-    <string name="progress_shower_message">%1$s\n%2$s</string>
+    <string name="progress_shower_message">"%1$s
+%2$s"</string>
     <string name="reading_vcard_title">Чтение vCard</string>
     <string name="reading_vcard_message">Чтение vCard файла(ов)</string>
     <string name="reading_vcard_failed_title">Чтение информации vCard не удалось</string>
@@ -209,7 +254,8 @@
     <string name="confirm_export_title">Подтвердить экспорт</string>
     <string name="confirm_export_message">Вы уверены, что хотите экспортировать свой список контактов на \"%s\"?</string>
     <string name="exporting_contact_failed_title">Экспорт информации контакта не удался</string>
-    <string name="exporting_contact_failed_message">Экспорт информации контакта не удался.\nПричина: \"%s\"</string>
+    <string name="exporting_contact_failed_message">"Экспорт информации контакта не удался.
+Причина: \"%s\""</string>
     <string name="fail_reason_no_exportable_contact">Нет контактов для экспорта</string>
     <string name="fail_reason_too_many_vcard">Слишком много vCard файлов на SD карте</string>
     <string name="fail_reason_too_long_filename">Слишком длинное имя файла (\"%s\")</string>
@@ -257,7 +303,7 @@
     <string name="display_more_groups">Больше групп…</string>
     <string name="display_ungrouped">Остальные контакты</string>
     <string name="display_all_contacts">Все контакты</string>
-    <string name="display_warn_remove_ungrouped">Удаление \'%s\' из синхронизации удалит также любой разгруппированный контакт из синхронизации.</string>
+    <string name="display_warn_remove_ungrouped">"Удаление '%s' из синхронизации удалит также любой разгруппированный контакт из синхронизации."</string>
     <string name="account_phone">Только для телефона, несинхронизировано</string>
     <string name="call_custom">Вызов %s</string>
     <string name="call_home">Домашний вызов</string>
@@ -353,9 +399,17 @@
     <string name="search_for_all_contacts">Поиск для всех контактов</string>
     <string name="take_photo">Сделать фото</string>
     <string name="pick_photo">Выбрать фото из Галереи</string>
-    <string name="locale_change_in_progress">Список контактов обновляется, чтобы отразить изменение языка.\n\nПожалуйста подождите...</string>
-    <string name="upgrade_in_progress">Список контактов обновляется.\n\nПожалуйста подождите...</string>
-    <string name="upgrade_out_of_memory">Контакты в процессе обновления. \n\nПроцесс обновления требует приблизительно %d Mb внутренней памяти телефона.\n\nВыберите одну из следующих опций:</string>
+    <string name="locale_change_in_progress">"Список контактов обновляется, чтобы отразить изменение языка.
+
+Пожалуйста подождите..."</string>
+    <string name="upgrade_in_progress">"Список контактов обновляется.
+
+Пожалуйста подождите..."</string>
+    <string name="upgrade_out_of_memory">"Контакты в процессе обновления. 
+
+Процесс обновления требует приблизительно %d Mb внутренней памяти телефона.
+
+Выберите одну из следующих опций:"</string>
     <string name="upgrade_out_of_memory_uninstall">Удалить некоторые приложения</string>
     <string name="upgrade_out_of_memory_retry">Повторно обновить</string>
     <string name="search_results_for">Результаты поиска для: %s</string>
@@ -392,7 +446,8 @@
     <string name="title_digits_color_focused">Цвет цифр (focused)</string>
     <string name="title_digits_color_unselected">Цвет цифр (не выбранных)</string>
     <string name="title_choose_color">Выбрать цвет</string>
-    <string name="instructions_choose_color">Нажмите на центр для подтверждения цвета.\nНажмите Назад для отмены.</string>
+    <string name="instructions_choose_color">"Нажмите на центр для подтверждения цвета.
+Нажмите Назад для отмены."</string>
     <string name="entry_no_vm_handler">Нет (Dial Voicemail Number)</string>
     <string name="title_cl_exact_time">Точное время</string>
     <string name="summaryon_cl_exact_time">Использовать точное время в истории вызовов</string>
@@ -506,7 +561,8 @@
     <string name="expire_on">Истекает: %s</string>
     <string name="kilobyte">KB</string>
     <string name="undelivered_msg_dialog_title">Недоставленное сообщение</string>
-    <string name="undelivered_msg_dialog_body">Невозможно отправить это сообщение. \nПопытка сделана: %s.</string>
+    <string name="undelivered_msg_dialog_body">"Невозможно отправить это сообщение. 
+Попытка сделана: %s."</string>
     <string name="undelivered_sms_dialog_body">Невозможно отправить это сообщение.</string>
     <string name="delete_thread">Удалить ветку</string>
     <string name="menu_forward">Переслать</string>
@@ -557,7 +613,7 @@
     <string name="failed_to_add_media">Вы не модете добавить это %1$s в сообщение.</string>
     <string name="failed_to_resize_image">Размер рисунка не изменен.</string>
     <string name="resize_image_error_information">К сожалению, даже при изменении размера изображение слишком большое, чтобы отправить.</string>
-    <string name="forward_prefix">Fwd:\u0020</string>
+    <string name="forward_prefix">"Fwd: "</string>
     <string name="discard_message">Отменить</string>
     <string name="discard_message_reason">Ваше сообщение будет отменено, поскольку оно не имеет правильных получателей.</string>
     <string name="has_invalid_recipient">Неправильный получатель(и): &lt;%1$s></string>
@@ -644,7 +700,7 @@
     <string name="pref_summary_mms_retrieval_during_roaming">Автоматически получать в роуминге</string>
     <string name="pref_title_save_location">Папка сохр. вложений</string>
     <string name="pref_summary_save_location">Папка в которую будут сохранятся вложения</string>
-    <string name="to_label">кому\u0020</string>
+    <string name="to_label">"кому "</string>
     <string name="confirm_dialog_title">Удалить</string>
     <string name="confirm_dialog_locked_title">Удалить заблокированное сообщение?</string>
     <string name="confirm_delete_conversation">Вся ветка будет удалена.</string>
@@ -658,29 +714,30 @@
     <string name="delete">Удалить</string>
     <string name="cannot_get_details">Нельзя получить подробности</string>
     <string name="message_details_title">Подробности сообщения</string>
-    <string name="message_type_label">Тип:\u0020</string>
+    <string name="message_type_label">"Тип: "</string>
     <string name="text_message">СМС</string>
     <string name="multimedia_message">MMC</string>
     <string name="multimedia_notification">ММС уведомление</string>
-    <string name="from_label">Отправитель:\u0020</string>
-    <string name="to_address_label">Получатель:\u0020</string>
-    <string name="bcc_label">Bcc:\u0020</string>
-    <string name="sent_label">Отправлено:\u0020</string>
-    <string name="received_label">Получено:\u0020</string>
-    <string name="saved_label">Сохранено:\u0020</string>
-    <string name="subject_label">Тема:\u0020</string>
-    <string name="message_size_label">Размер:\u0020</string>
-    <string name="priority_label">Приоритет:\u0020</string>
+    <string name="from_label">"Отправитель: "</string>
+    <string name="to_address_label">"Получатель: "</string>
+    <string name="bcc_label">"Bcc: "</string>
+    <string name="sent_label">"Отправлено: "</string>
+    <string name="received_label">"Получено: "</string>
+    <string name="saved_label">"Сохранено: "</string>
+    <string name="subject_label">"Тема: "</string>
+    <string name="message_size_label">"Размер: "</string>
+    <string name="priority_label">"Приоритет: "</string>
     <string name="priority_high">Высокий</string>
     <string name="priority_normal">Нормальный</string>
     <string name="priority_low">Низкий</string>
-    <string name="message_class_label">Класс:\u0020</string>
-    <string name="error_code_label">Код ошибки:\u0020</string>
+    <string name="message_class_label">"Класс: "</string>
+    <string name="error_code_label">"Код ошибки: "</string>
     <string name="menu_edit">Редактировать</string>
     <string name="menu_retry_sending">Повторить отправку</string>
     <string name="menu_retry_sending_all">Повторить отправку всех</string>
     <string name="menu_delete_messages">Удалить сообщения</string>
-    <string name="retrying_dialog_body">Это сообшение %s не было отправлено по причине связи. \nПовторная отправка…</string>
+    <string name="retrying_dialog_body">"Это сообшение %s не было отправлено по причине связи. 
+Повторная отправка…"</string>
     <string name="menu_lock">Заблокировать SMS</string>
     <string name="menu_unlock">Разблокировать SMS</string>
     <string name="sim_copy_to_phone_memory">Копировать в память телефона</string>
@@ -696,8 +753,8 @@
     <string name="status_failed">Неудачные</string>
     <string name="status_unread">Непрочитанные</string>
     <string name="status_rejected">Отклоненные</string>
-    <string name="recipient_label">Получатель:\u0020</string>
-    <string name="status_label">Статус:\u0020</string>
+    <string name="recipient_label">"Получатель: "</string>
+    <string name="status_label">"Статус: "</string>
     <string name="attach_image">Изображения</string>
     <string name="attach_take_photo">Захватить картинку</string>
     <string name="attach_video">Видео</string>
@@ -784,13 +841,15 @@
     <string name="pref_title_mms_back_to_all_threads">Назад ко всем веткам</string>
     <string name="pref_summary_mms_back_to_all_threads">Всегда идти ко всем веткам когда нажата кнопка Назад</string>
     <string name="pref_title_mms_black_background">Черный фон</string>
-    <string name="pref_summary_mms_black_background">Включить/выключить черный фон \n(Перезапуск ММС)</string>
+    <string name="pref_summary_mms_black_background">"Включить/выключить черный фон 
+(Перезапуск ММС)"</string>
     <string name="pref_title_show_counter_always">Счетчик символов</string>
     <string name="pref_summary_show_counter_always">Всегда показывать счетчик символов при составлении сообщений</string>
     <string name="pref_mms_custom_option">Пользовательск..</string>
     <string name="pref_title_mms_user_agent">Пользовательский User-Agent</string>
     <string name="pref_summary_mms_user_agent">Spoof тел другой модели для MMS</string>
-    <string name="pref_mms_user_agent_custom_set">Пользовательский User Agent установить:\n</string>
+    <string name="pref_mms_user_agent_custom_set">"Пользовательский User Agent установить:
+"</string>
     <string name="pref_title_mms_full_timestamp">Полные метки времени</string>
     <string name="pref_summary_mms_full_timestamp">Включить показывать дату и время in в метках времени сообщения</string>
     <string name="pref_title_mms_use_sent_timestamp">Использовать отправку меток времени</string>
@@ -895,4 +954,131 @@
     <string name="no_duplicated_contact">Нет дублированного контакта!</string>
     <string name="saveconfirm_title">Напоминание</string>
     <string name="saveconfirm_message">Контакт изменен. Сохранить изменения?</string>
+    <string name="call_log_settings">Настройка истории вызовов</string>
+    <string name="call_log_click_option_title">Настройка нажатия на вызов</string>
+    <string name="call_log_click_option_summary">Что делать при нажатии на вызов</string>
+	<string name="menu_settings">Настройки контактов</string>
+	<string name="menu_yiliao_sync">Синхронизация</string>
+    <string name="menu_share_contacts">Поделиться контактами</string>
+    <string name="contacts_show_option_label">Настройки отображения</string>
+	<string name="prefs_contact_management_title">Управление контактами</string>
+	<string name="contacts_account_settings_label">Настройки аккаунтов</string>
+	<string name="btn_add_sticker_photo">Модифицировать изображение контакта</string>
+	<string name="replaceConcatctIcon_title">Удаление изображения контакта</string>
+    <string name="replaceConcatctIcon">Вы уверены, что хотите изменить изображение контакта?</string>
+	<string name="removeStickerPicture">Удалить изображение</string>
+	<string name="prefs_ims_settings">Настройки БСС</string>
+    <string name="prefs_ims_mode">Режим человека (рекомендуется)</string>
+    <string name="prefs_ims_summary_mode">Подключенный к сети режим отправляет бесплатные сообщения через интернет или СМС.</string>
+    <string name="prefs_ims_aout_to_sms_mode">Пересылка через СМС</string>
+    <string name="prefs_ims_aout_to_sms_summary_mode">Автоматически пересылать FMS через СМС.</string>
+	<string name="prefs_ims_close_title">Бесплатный Сервис Сообщений</string>
+    <string name="prefs_ims_close_title_summary">Не включайте, он будет забирать деньги у вас со счета!</string>
+	<string name="calllog_settings">Настройки вызовов</string>
+	<string name="send_contact">Поделиться контактом</string>
+    <string name="search_content_count">Найден %d контакт</string>
+    <string name="search_content_counts">Найдено %d контактов</string>
+    <string name="search_calllog_count">Найден %d вызов</string>
+    <string name="search_calllog_counts">Найдено %d вызовов</string>
+    <string name="search_message_count">Найдено %d сообщение</string>
+    <string name="search_message_counts">Найдено %d сообщений</string>
+    <string name="dialpad_call">Позвонить</string>
+    <string name="show_phone_number">Показать все контакты</string>
+    <string name="show_yiliao_number">Номер телефона</string>
+    <string name="title_edit_account">Изменить персональную карточку</string>
+    <string name="yiliao_remark_label">Примечание</string>
+    <string name="yiliao_email_label">Email</string>
+    <string name="yiliao_phone_label">Номер</string>
+    <string name="yiliao_remark_prompt">"Расскажите о нем, поделитесь с друзьями"</string>
+    <string name="menu_switch_account">Выбрать аккаунт</string>
+    <string name="menu_change_passwd">Изменить пароль</string>
+    <string name="yiliao_account_myself">Я</string>
+    <string name="yiliao_progress_match_yiliao_number">Соответствующий LMessage контакт…</string>
+    <string name="yiliao_progress_match_yiliao_number_done">Обновление статуса контакта завершено</string>
+    <string name="title_yiliao_match_number_hint">Подсказка</string>
+    <string name="message_yiliao_match_number_hint">"Разрешить обновлять в соответствующие контакты?
+  Разрешить автоматическое согласование, чтобы помочь вам найти новых друзей, но ваши контакты являются строго конфиденциальными"</string>
+    <string name="positive_yiliao_match_number_hint">Разрешить</string>
+    <string name="negative_yiliao_match_number_hint">Запретить</string>
+    <string name="yiliao_add_to_local">добавить в готовый контакт</string>
+    <string name="yiliao_add_to_local_contacts">добавить в существующий контакт</string>
+    <string name="remind_yiliao_match_number_hint">Не напоминать</string>
+    <string name="privacy_settings_label">Настройки приватности</string>
+    <string name="switch_accounts_label">Выбор аккаунтов</string>
+    <string name="change_passwd_label">Изменить пароль</string>
+    <string name="whether_find_me_label">Разрешить остальным находить меня</string>
+    <string name="friend_recommend_label">Порекомендовать другу</string>
+    <string name="auto_recommend_mututal_friends">Автоматически рекомендовать чтото другу</string>
+    <string name="title_contacts_settings">Настройки контактов</string>
+    <string name="pref_contacts_option_title">Опции настроек</string>
+    <string name="menu_manually_refresh">Обновлять вручную</string>
+    <string name="menu_close_lw_msg">Закрыть содержимое сообщения</string>
+    <string name="menu_open_lw_msg">Открыть содержимое сообщения</string>
+    <string name="prompt_no_account_info">У вас нет информации о себе</string>
+    <string name="btn_add_account_info">Добавить персональное сообщение</string>
+    <string name="prompt_nerwork_offline">Ошибка обновления, проверьте подключение к интернету</string>
+    <string name="compose_voice_button">Нажмите для Разговора</string>
+    <string name="compose_through_text">через</string>
+    <string name="compose_recorder_to_short">Ваша запись слишком короткая и не может быть отправлена</string>
+    <string name="compose_stop_audio_text">Стоп</string>
+    <string name="compose_recorder_no_press">Неотправимые прикрепения</string>
+    <string name="compose_through_from_ims">Бесплатные сообщения</string>
+    <string name="compose_search_contacts_number">Контакты Wa Xin</string>
+    <string name="mms_audio_message_text">Аудио</string>
+    <string name="mms_image_message_text">Изображение</string>
+    <string name="mms_video_message_text">Видео</string>
+    <string name="ims_resend_message">Переотправить СБС</string>
+    <string name="ims_resend_message_to_sms">Переотправить через СМС</string>
+    <string name="sms_storage_to_sim">Сохранить СМС на карту SIM.</string>
+    <string name="sms_storage_to_setting">Настройки хранилища СМС</string>
+    <string name="mms_nomal_message">Нормальное сообщение</string>
+    <string name="mms_ims_message">Бесплатные сообщения</string>
+    <string name="mms_input_voice_no_sdcard">SD card not detected, unable to send voice message.</string>
+    <string name="mms_input_play_no_sdcard">SD card not detected, unable to play voice message.</string>
+    <string name="message_sending_string">отправка сообщения...</string>
+    <string name="message_ims_sending_file_maxsize">Невозможно отправить файлы больше 2MB.</string>
+    <string name="message_ims_user_state_refresh">Обновить статус</string>
+    <string name="message_ims_user_service_open">Присоедениться сейчас!</string>
+    <string name="message_ims_user_service_to_later">Напомнить позже</string>
+    <string name="message_ims_user_service_message_info">Бесплатный информационный сервис подарит вам новых друзей, видео, изображения и общение бесплатно!</string>
+    <string name="message_ims_user_service_check_protocol">Прочитать пользовательское соглашение</string>
+    <string name="message_ims_user_service">Сервис Бесплатных Сообщений (СБС)</string>
+    <string name="message_ims_user_protocol">протокол пользователя</string>
+    <string name="message_ims_user_service_info">"Free information service user agreement
+
+One, the agreement to grant you the following rights:
+
+Installation and use:
+
+You can copy, distribute and disseminate an unlimited number of software products, but you must ensure that each reproduction, distribution and dissemination must be true and complete, including all software products on this software, electronic documents, copyright and trademark notices, also including this agreement.
+
+Two, costs:
+
+You must pay personal Internet or third party ( including but not limited to, telecommunications or mobile communication provider ) communication charge fee, fee information and other related costs. As related to value-added telecom services, we recommend you and value-added service provider to confirm the related costs. Any of the software update, update and other change will be the subject of this agreement.
+
+Three, privacy protection
+
+To protect user privacy is a free information service is a basic policy, ensure not open to the public or to the third party to provide a single user registration information and users in the use of network services non-public content, except in the following situations:
+
+Prior to obtaining the clear authorization of user;
+
+According to the relevant laws and regulations;
+
+In accordance with the relevant government departments in charge of the requirements;
+
+In order to safeguard the public interest;
+
+To safeguard the legitimate rights and interests of a letter.
+
+In the disclosed single user privacy under the premise, has the right to the user database are analyzed and the user database for commercial use.
+
+In four, the opening of free information service needs to send a message to the server to complete the registration fee, with ordinary SMS messages, by charge carriers, Le frog does not charge any fees."</string>
+    <string name="message_ims_sending_string">Отправка Вообщения.......</string>
+    <string name="message_add_multiple_file">Можно добавить файлы</string>
+    <string name="message_add_multiple_file_error_type">Неподдерживаемый формат файла</string>
+    <string name="message_sd_card_min_size">Карта памяти заполнена.</string>
+    <string name="message_select_contacts">Выберите контакты</string>
+    <string name="message_selected_contacts_count">Выбрано контактов %s</string>
+    <string name="addblack_dec">Примечание (опционально)</string>
+    <string name="importsms_black">Импортировать все СМС этого номера</string>
 </resources>

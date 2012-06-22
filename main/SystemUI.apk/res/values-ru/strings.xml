@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_label">Строка состояния</string>
     <string name="status_bar_clear_all_button">Очистить</string>
@@ -9,6 +9,9 @@
     <string name="battery_low_subtitle">Батарея разряжена:</string>
     <string name="battery_low_percent_format">Осталось %d%% или меньше.</string>
     <string name="battery_low_why">Расход заряда батареи</string>
+    <string name="usb_accessory_permission_prompt">Разрешить приложению %1$s доступ к USB аксессуару?</string>
+    <string name="usb_device_confirm_prompt">Открыть %1$s когда USB-подключение активно?</string>
+    <string name="usb_accessory_confirm_prompt">Открыть %1$s когда этот USB аксессуар подключен?</string>
     <string name="usb_accessory_uri_prompt">Установленные приложения не поддерживают этот USB-аксессуар. Подробнее о нем читайте здесь: %1$s.</string>
     <string name="title_usb_accessory">USB-устройство</string>
     <string name="label_view">Просмотр</string>
@@ -41,8 +44,8 @@
     <string name="save">Сохранить</string>
     <string name="ok">OK</string>
     <string name="cancel">Отмена</string>
-    <string name="monthly">Месяц :</string>
-    <string name="mb">M</string>
+    <string name="monthly">Месяц:</string>
+    <string name="mb">Mб</string>
     <string name="month_total_no_change">Трафик за месяц не изменился!</string>
     <string name="today_left_data">Сегодня %1$.2f%2$s %3$.2f%4$s Осталось</string>
     <string name="sure_clear_history">Вы уверены?</string>
@@ -66,9 +69,9 @@
     <string name="gps">GPS</string>
     <string name="sound">Бесшумно</string>
     <string name="brightness">Яркость</string>
-    <string name="sync">Sync</string>
+    <string name="sync">Синх.</string>
     <string name="wifiap">Wifi AP</string>
-    <string name="screentimeout">Screentimeout</string>
+    <string name="screentimeout">Автооткл.</string>
     <string name="mobiledata">Данные</string>
     <string name="lockscreen">Блокировка</string>
     <string name="networkmode">2G/3G</string>
@@ -83,7 +86,7 @@
     <string name="vibrate">Вибро</string>
     <string name="mylockscreen">Блок</string>
     <string name="poweroff">Выкл.</string>
-    <string name="reboot">Reboot</string>
+    <string name="reboot">Рестарт</string>
     <string name="month_day">d MMM</string>
     <string name="exceed_flow">Превышение</string>
     <string name="china_mobile">CHINA MOBILE</string>
@@ -95,7 +98,7 @@
     <string name="twelve_hour_time_format">h:mma</string>
     <string name="twenty_four_hour_time_format">HH:mm</string>
     <string name="datamonitor_firewall">Сетевой экран</string>
-    <string name="datamonitor_switch">Application Network switch</string>
+    <string name="datamonitor_switch">Выбор сети приложения</string>
     <string name="app_control">Тип сети</string>
     <string name="loading_apps_list">Загрузка...</string>
     <string name="firewall">Сетевой экран</string>
@@ -121,4 +124,37 @@
     <string name="data_reminder_message">Ваш трафик будет переиспользован. Отключить поток данных?</string>
     <string name="tip_status_shortcut">Долгое нажатие, чтобы выбрать доп. функции</string>
     <string name="tip_status_memoryclear">Нажмите, чтобы очистить память.</string>
+    <string name="month_flow_ext_short">Месяц:</string>
+    <string name="please_input_used_data">Введите использования в этом месяце</string>
+    <string name="group_title_userapp">Прилож. пользователя</string>
+    <string name="group_title_systemapp">Системные прилож.</string>
+    <string name="power_widgetbutton_nightmode">Ночь</string>
+    <string name="poputip_title1">Это уведомление от</string>
+    <string name="poputip_title2">Бан</string>
+    <string name="poputip_title3">Все уведомления перемещены в это приложение</string>
+    <string name="poputip_title4">Информация об этом приложении</string>
+    <string name="poputip_toast">Бан для %s отправленного сообщения</string>
+    <string name="usb_mode_notification">USB-подключение</string>
+	<string name="tab_notifications">Уведомления</string>
+    <string name="tab_switches">Переключатели</string>
+    <string name="title_buttons">Кнопки</string>
+    <string name="title_toggle_wifi">Wi-Fi</string>
+    <string name="title_toggle_bluetooth">BT</string>
+    <string name="title_toggle_gps">GPS</string>
+    <string name="title_toggle_sound">Тихий</string>
+    <string name="title_toggle_brightness">Подсветка</string>
+    <string name="title_toggle_sync">Синх.</string>
+    <string name="title_toggle_wifiap">Wi-Fi точка</string>
+    <string name="title_toggle_mobiledata">Интернет</string>
+    <string name="title_toggle_lockscreen">Блокировка</string>
+    <string name="title_toggle_networkmode">2G/3G</string>
+    <string name="title_toggle_autorotate">Ориентация</string>
+    <string name="title_toggle_airplane">Режим полета</string>
+    <string name="title_toggle_flashlight">LED подсветка</string>
+    <string name="title_toggle_sleep">Уснуть</string>
+    <string name="title_toggle_locknow">Блокировка</string>
+    <string name="title_toggle_shutdown">Выключить</string>
+    <string name="title_toggle_reboot">Рестарт</string>
+    <string name="title_toggle_switchwidgetstyle">Больше</string>
+    <string name="title_toggle_screencapture">Режим скриншота</string>
 </resources>

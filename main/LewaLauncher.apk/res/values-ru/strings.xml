@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
-    <string name="rom_mod_string">CyanogenMod</string>
-    <string name="config_screenCache">2</string>
-    <string name="config_desktop_effect">0</string>
-    <string name="sharedUserId" />
-    <string name="application_name">Launcher</string>
+    <string name="lewa_copyright">&lt;br>Copyright © 2011 LeWa Tek, Ltd. All Rights Reserved &lt;br>&lt;br> &lt;b>Copyright Notice:&lt;/b>&lt;br> LeWa Tek copyrights this specification. No part of this specification may be reproduced in any form or means, without the prior written consent of LeWa Tek.&lt;br>&lt;br> &lt;b>Disclaimer of Warranties:&lt;/b>&lt;br> LeWa Home is for Android 2.1 plus. Your use of the LeWa Home is at your sole risk. It’s free to download and install. GPRS traffic charges will incur when using it.&lt;br>&lt;br> Website: &lt;a href=http://www.lewaos.com>http://www.lewaos.com &lt;/a> &lt;br> Email: &lt;a href=mailto:services@lewatek.com>services@lewatek.com &lt;/a> &lt;br></string>
+    <string name="application_name">Launcher Lewa</string>
     <string name="folder_name">Папка</string>
     <string name="chooser_wallpaper">Выбрать фон</string>
     <string name="wallpaper_instructions">Установить обои</string>
@@ -18,7 +15,6 @@
     <string name="menu_item_add_item">Добавить на рабочий стол</string>
     <string name="group_applications">Приложения</string>
     <string name="group_shortcuts">Ярлыки</string>
-    <string name="launcher_actions">Действия лаунчера</string>
     <string name="group_search">Поиск</string>
     <string name="group_folder">Новая папка</string>
     <string name="group_live_folders">Папки</string>
@@ -30,8 +26,6 @@
     <string name="shortcut_duplicate">Ярлык \"%s\" уже существует.</string>
     <string name="title_select_shortcut">Выбрать ярлык</string>
     <string name="title_select_live_folder">Выбрать папку</string>
-    <string name="menu_delete">Удалить</string>
-    <string name="menu_uninstall">Удалить</string>
     <string name="menu_wallpaper">Обои</string>
     <string name="menu_search">Поиск</string>
     <string name="menu_settings">Настройки</string>
@@ -45,14 +39,10 @@
     <string name="permlab_write_settings">читать настройки и ярлыки Home</string>
     <string name="permdesc_write_settings">Позволить приложению менять настройки и ярлыки Home.</string>
     <string name="gadget_error_text">Проблема с загрузкой виджета</string>
-    <string name="db_version">3.0</string>
     <string name="pref_label_settings">Настройки LeWa Home</string>
     <string name="pref_title_build_info">Версия</string>
     <string name="pref_title_adw_version">Версия LeWa</string>
     <string name="drop_to_uninstall">Перетяните чтобы удалить</string>
-    <string name="toast_widgets_not_supported">Виджеты не поддерживаются... извините :-)</string>
-    <string name="toast_unknown_item">Неизвестный элемент. Мы не можем добавить неизвестный элемент :-)</string>
-    <string name="toast_no_application_def">Приложение не определено, положите что-нибудь сюда :)</string>
     <string name="pref_title_import_export">Резервное копирование и восстановление</string>
     <string name="pref_title_xml">Настройки LeWa Home</string>
     <string name="pref_title_xml_import">Восстановить настройки LeWa Home</string>
@@ -130,8 +120,6 @@
     <string name="unavailable">Недоступно</string>
     <string name="prepareUpdate">Проверка обновления</string>
     <string name="ok">OK</string>
-    <string name="nophoto">Нет фото на SD карте или SD карта неисправна.</string>
-    <string name="prenotice">Нажмите иконку папки чтобы выбрать фото</string>
     <string name="lewa_appdelete">Извините, это системное приложение не может быть удалено.</string>
     <string name="lewa_goback">Создать ярлык</string>
     <string name="lewa_editmodetip">У Вас минимальное количество экранов и Вы не можете больше удалять</string>
@@ -139,51 +127,6 @@
     <string name="folder_tool">инструменты</string>
     <string name="pref_title_activity_format">Высокое качество отрисовки</string>
     <string name="pref_summary_activity_format">Высокое качество отрисовки может уменьшить производительность</string>
-    <string name="theme_default_name">По умолчанию</string>
-    <string name="theme_default_author">Lewa</string>
-    <string name="theme_default_version">1.0</string>
-    <string name="theme_apk_name">Тема</string>
-    <string name="theme_local">Локальная</string>
-    <string name="theme_online">Онлайн</string>
-    <string name="theme_remind">Выберите вашу тему и примените</string>
-    <string name="theme_apply_btn">Применить</string>
-    <string name="theme_more_btn">Еще</string>
-    <string name="theme_edit_btn">Удалить</string>
-    <string name="theme_delete_btn">Удалить</string>
-    <string name="theme_download_btn">Загрузка%s</string>
-    <string name="theme_downloading_btn">Загружается%s</string>
-    <string name="theme_import_btn">Импортировать</string>
-    <string name="theme_local_text_description">Выберите вашу тему</string>
-    <string name="theme_more_text_description">Скачайте тему</string>
-    <string name="theme_sd_unmounted_title">Карта памяти недоступна</string>
-    <string name="theme_sd_unmounted_message">Убедитесь что карта вставлена, и телефон не в режиме передачи данных.</string>
-    <string name="theme_ok">OK</string>
-    <string name="theme_no">Отмена</string>
-    <string name="theme_file_manager">Менеджер тем Lewa</string>
-    <string name="theme_set_progressbar_title">Настройки темы</string>
-    <string name="theme_set_progressbar_message">Установка темы,пожалуйста подождите....</string>
-    <string name="theme_no_theme_messgae">Нет тем на SD карте</string>
-    <string name="theme_copy_btn">Скопировать тему</string>
-    <string name="theme_copy_progressbar_title">Тема копируется</string>
-    <string name="theme_copy_progressbar_message">Тема копируется,пожалуйста подождите....</string>
-    <string name="theme_radiobtn_null_title">Тема не выбрана</string>
-    <string name="theme_radiobtn_null_message">Пожалуйста выберите тему</string>
-    <string name="theme_online_loading">Загружается...</string>
-    <string name="theme_online_notifation_title">Тема загружена</string>
-    <string name="theme_online_notifation_message">Скачать темы на Lewa online</string>
-    <string name="theme_online_notifation_content">Скачать тему на</string>
-    <string name="theme_online_notifation_unit" />
-    <string name="theme_delete_title">Подтверждение удаления</string>
-    <string name="theme_delete_message">Удалить выбранную?</string>
-    <string name="theme_no_delete_notify">Не могу удалить тему по умолчанию</string>
-    <string name="theme_downloading_notify">Загружается,пожалуйста подождите...</string>
-    <string name="theme_download_fail">Тема не загружена...</string>
-    <string name="theme_already_download">Не повторять загрузку</string>
-    <string name="theme_no_network">Сеть недоступна</string>
-    <string name="theme_connect_timeout">Время подключения истекло,попробуйте снова</string>
-    <string name="pref_title_theme_settings">Настройки темы</string>
-    <string name="pref_summary_theme_settings">Выберите тему</string>
-    <string name="theme_no_select">Выберите темы</string>
     <string name="folder">папка</string>
     <string name="new_folder">создать новую папку</string>
     <string name="mainmenu_search">поиск приложения</string>
@@ -219,4 +162,7 @@
     <string name="pref_summary_resetlauncher">восстановить положение ярлыков</string>
     <string name="menu_lewapond">Lewa аккаунт</string>
     <string name="message_resetlauncher">Сброс настроек востановит положение ваших ярлыков? Произвести сброс настроек?</string>
+    <string name="tip_sliding">Установите это в меню приложений, чтобы потом можно было использовать !</string>
+    <string name="tip_allapps">Вы можете перетаскивать значок любого приложения, также вы можете сортировать, менять иконки на панели быстрого запуска и быстро создать папки на ней, когда она находится в вверхней части рабочего стола.</string>
+    <string name="uid_name">Основные программы Android</string>
 </resources>
