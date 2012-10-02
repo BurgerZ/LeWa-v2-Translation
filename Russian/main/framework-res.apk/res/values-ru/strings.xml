@@ -789,7 +789,6 @@
     <string name="chooseActivity">Выберите действие</string>
     <string name="chooseUsbActivity">Выбор приложения для USB-устройства</string>
     <string name="noApplications">Это действие не может выполнять ни одно приложение.</string>
-    <string name="aerr_title">Ошибка приложения!</string>
     <string name="aerr_application">Произошла неожиданная остановка приложения %1$s (процесс %2$s). Повторите попытку.</string>
     <string name="aerr_process">Произошла неожиданная остановка процесса %1$s. Повторите попытку.</string>
     <string name="aerr_revoked_application">Приложение %1$s (процесс %2$s) было неожиданно остановлено. Внимание! Это приложение имеет одно или несколько изменений в разрешениях, что может привести к его неисправности. Пожалуйста, предоставьте необходимые разрешения и попробуйте ещё раз.</string>
@@ -954,4 +953,11 @@
     <string name="fixed_line">Фиксированная линия</string>
     <string name="ringtone_custom">Своя мелодия...</string>
     <string name="ringtone_silent_summary">Без звука</string>
+	<string name="aerr_title">Извините!</string>
+	<string name="fc_window_error_default">Неизвестное приложение ошибка!</string>
+    <string name="fc_window_you_want">"Не волнуйтесь, что делать дальше?"</string>
+	<string name="fc_app_info_front" />
+    <string name="fc_app_info_rear">Ошибка!</string>
+	<string name="progress_scanning">Поиск</string>
+	<string name="fc_window_sorry">Извините!</string>
 </resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Калибровка сенсора приближения</string>
+    <string name="prox_calibration_title_head">Калибровка сенсора приближения</string>
+    <string name="prox_calibration_summary_head">Не прикасайтесь к экрану во время работы</string>
+    <string name="prox_display_title_head">Отобразить настройки сенсора приближения</string>
+    <string name="prox_display_summary_head">Посмотреть данные калибровки сенсора</string>
+    <string name="toast_error">Ошибка</string>
+    <string name="back_button">Назад</string>
+    <string name="prox_restore_title_head">Восстановить настройи по умолчанию</string>
+    <string name="prox_restore_summary_head">Удалить данные калибровки (Необходима перезагрузка).</string>
+    <string name="delete_success">Настройки сброшены на заводские. Перезагрузите телефон.</string>
+    <string name="delete_error">Ошибка сброса настроек.</string>
+    <string name="delete_no_file">Заводские настройки уже используются.</string>
+    <string name="usb_charging_title_head">Зарядка по USB</string>
+    <string name="usb_charging_summary_head">Разрешить/Запретить зарядку</string>
+    <string name="successfully_calibrated_proximity_sensor">Калибровка завершена</string>
+	<string name="swap_settings">Настройка Swap</string>
+    <string name="swap_settings_summary">Настроить файл подкачки</string>
+    <string name="swap_info_summary">Нажмите для просмотра информации</string>
+    <string name="swap_warning_summary">Внимание! Читать обязательно!!</string>
+    <string name="swap_file_location_title">Размещение Swap-файла</string>
+    <string name="swap_file_location_summary">Выберете место для размещения swap-файла</string>
+    <string name="swap_file_size_title">Размер Swap</string>
+    <string name="swap_file_size_summary">Выбрать размер Swap-файла</string>
+    <string name="swap_choose_swappiness_title">Swappiness</string>
+    <string name="swap_choose_swappiness_summary">Выбрать значение swappiness</string>
+    <string name="swap_reboot_on_title">Включить Swap на SD-карте</string>
+    <string name="swap_reboot_on_summary">Требуется перезагрузка</string>
+    <string name="swap_onoff_title">Вкл./Выкл. Swap</string>
+    <string name="swap_on_summary">swap включен</string>
+    <string name="swap_is_opening">Включение swap, пожалйсто подождите...</string>
+    <string name="swap_is_closing">Отключение swap...</string>
+    <string name="swap_off_summary">swap отключен</string>
+    <string name="swap_warning_title_head">Внимание</string>
+    <string name="swap_info_title_head">Информация</string>
+    <string name="swap_need_reboot">Swap включен, перезагрузить для активации?</string>
+    <string name="swap_warning"><font size="17">" 
+"<font height="17">"
+"</font><b>1,</b>"  Это необязательная функция. 
+"<font height="17">"
+"</font><b>2,</b>"  Эта функция может повредить вашу SD-карту и увеличить энергопотребление телефона. 
+"<font height="17">"
+"</font><b>3,</b>"  Чем ниже значение swappiness, тем чаще происходить чтение и запись на карту памяти. 
+"<font height="17">"
+"</font><b>4,</b>"  После включения swap, перезагрузите телефон.. 
+"<font height="17">"
+"</font><b>5,</b>  Подумайте нужна ли вам эта функция. </font>" "</string>
+</resources>

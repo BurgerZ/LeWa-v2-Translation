@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <resources>
     <string-array name="modes_array">
-        <item>Перехватывать вызова и сообщения</item>
+        <item>Перехватывать вызовы и сообщения</item>
         <item>Перехват вызовов</item>
         <item>Перехват сообщений</item>
     </string-array>

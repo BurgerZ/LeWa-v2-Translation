@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <plurals name="Nsongs">
         <item quantity="other">%d песен</item>
@@ -15,5 +15,13 @@
     <plurals name="NNNtracksdeleted">
         <item quantity="other">%d песен удалено.</item>
         <item quantity="one">1 песня удалена.</item>
+    </plurals>
+    <plurals name="NNNsearchsong">
+        <item quantity="other">найдено %d песен</item>
+        <item quantity="one">найдена 1 песня</item>
+    </plurals>
+    <plurals name="Nfolders">
+        <item quantity="other">%d папок</item>
+        <item quantity="one">1 папка</item>
     </plurals>
 </resources>

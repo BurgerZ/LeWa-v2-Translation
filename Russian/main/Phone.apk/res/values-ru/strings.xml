@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="contactsIconLabel">Набор</string>
     <string name="contactsFavoritesLabel">Избранные</string>
@@ -63,7 +63,7 @@
     <string name="menu_answerAndEnd">Завершить текущий вызов &amp; ответить</string>
     <string name="ok">OK</string>
     <string name="menuButtonHint">Нажмите меню для настройки вызовов</string>
-    <string name="menuButtonKeyboardDialHint">Нажмите меню для настройки вызовов  \u0020• \u0020Использовать клавиатуру для звонков</string>
+    <string name="menuButtonKeyboardDialHint">"Нажмите меню для настройки вызовов  •  Использовать клавиатуру для звонков"</string>
     <string name="menu_answer">Ответить</string>
     <string name="menu_ignore">Сбросить</string>
     <string name="wait_prompt_str">Послать следующие тональные сигналы?</string>
@@ -190,12 +190,12 @@
     <string name="throttle_time_frame">Период использования передачи данных</string>
     <string name="throttle_rate">Скорость передачи данных</string>
     <string name="throttle_help">Читать еще</string>
-    <string name="throttle_status_subtext">%1$s (%2$d٪) в %3$s период Макс. след период в %4$d дней (%5$s)</string>
-    <string name="throttle_data_usage_subtext">%1$s (%2$d٪) максимальный период %3$s</string>
-    <string name="throttle_data_rate_reduced_subtext">Максимальный %1$s превышен Скорость передачи данных переводится на %2$d Кб/с</string>
-    <string name="throttle_time_frame_subtext">%1$d٪ цикла прошло Следующий период начинается в %2$d дней (%3$s)</string>
+    <string name="throttle_status_subtext" formatted="false">%1$s (%2$d٪) в %3$s период Макс. след период в %4$d дней (%5$s)</string>
+    <string name="throttle_data_usage_subtext" formatted="false">%1$s (%2$d٪) максимальный период %3$s</string>
+    <string name="throttle_data_rate_reduced_subtext" formatted="false">Максимальный %1$s превышен Скорость передачи данных переводится на %2$d Кб/с</string>
+    <string name="throttle_time_frame_subtext" formatted="false">%1$d٪ цикла прошло Следующий период начинается в %2$d дней (%3$s)</string>
     <string name="throttle_rate_subtext">Скорость передачи данных переводится в %1$d Кб/с, если првевышен лимит данных</string>
-    <string name="throttle_help_subtext">Больше информации о вашем поставщике данных\'s политике передачи данных</string>
+    <string name="throttle_help_subtext">"Больше информации о вашем поставщике данных's политике передачи данных"</string>
     <string name="cdma_cell_broadcast_sms">Трансляция SMS</string>
     <string name="cell_broadcast_sms">Трансляция SMS</string>
     <string name="enable_disable_cell_bc_sms">Трансляция SMS</string>
@@ -438,7 +438,7 @@
     <string name="network_message">Сообщение сети</string>
     <string name="ota_title_activate">Активировать ваш телефон</string>
     <string name="ota_touch_activate">Специальный звонок должен быть сделан, чтобы активировать Вашу телефонную службу. После нажатия Активировать, изучить инструкции по активированию телефона.</string>
-    <string name="ota_touch_activate_new">Нажмите Активировать чтобы совершить специальный вызов который активирует ваш телефон\'s мобильной сети, чтобы вы могли звонить и передавать данные.</string>
+    <string name="ota_touch_activate_new">"Нажмите Активировать чтобы совершить специальный вызов который активирует ваш телефон's мобильной сети, чтобы вы могли звонить и передавать данные."</string>
     <string name="ota_skip_activation_dialog_title">Пропустить активацию?</string>
     <string name="ota_skip_activation_dialog_message">Пропуская активациь, Вы не сможете звонить и передавать данные (хотя Вы можете соединиться с сетями Wi-Fi). Пока Вы не активируете свой телефон, Вас попросят активировать его каждый раз, когда Вы включаете его.</string>
     <string name="ota_skip_activation_dialog_skip_label">Пропустить</string>
@@ -452,7 +452,10 @@
     <string name="ota_progress">Пожалуйста, подождите, пока Ваш телефон программируется.</string>
     <string name="ota_failure">Программирование не удалось</string>
     <string name="ota_successful">Ваш телефон активирован. Это может занять до 15 минут на запуск службы.</string>
-    <string name="ota_unsuccessful">Ваш телефон не активирован.\nВозможно, вам придется найти место лучшего покрытия (около окна, или снаружи).\n\nПопробуйте снова или позвоните в службу поддержки.</string>
+    <string name="ota_unsuccessful">"Ваш телефон не активирован.
+Возможно, вам придется найти место лучшего покрытия (около окна, или снаружи).
+
+Попробуйте снова или позвоните в службу поддержки."</string>
     <string name="ota_spc_failure">Ошибка доступа к SPC</string>
     <string name="ota_call_end">Назад</string>
     <string name="ota_try_again">Попробуйте снова</string>
@@ -473,7 +476,8 @@
     <string name="voicemail_settings_for">Настройки для %s</string>
     <string name="other_settings">Другие настройки вызова</string>
     <string name="dial_button_label">Звонить</string>
-    <string name="calling_via_template">Звонить через ^1\n<b>^2</b></string>
+    <string name="calling_via_template">"Звонить через ^1
+"<b>^2</b></string>
     <string name="slide_to_answer">Перетащите вправо чтобы ответить</string>
     <string name="rotate_to_answer">Поверните вправо чтобы ответить</string>
     <string name="slide_to_silence">Перетащите влево чтобы выключить звук</string>
@@ -494,6 +498,8 @@
     <string name="vibrate_hangup_sum">Вибрировать когда вызов завершен</string>
     <string name="screen_awake">Не отключать экран</string>
     <string name="screen_awake_sum">Экран будет вкл. дольше чем обычно при звонке</string>
+    <string name="automatic_recording">Авто запись</string>
+    <string name="automatic_recording_sum">При вход. звонке, вкл. автомат. запись разг.</string>
     <string name="always_proximity">Всегда использовать датчику приближения</string>
     <string name="always_proximity_sum">Позволить датчику близости блокировать экран, даже если телефон горизонтален.</string>
     <string name="led_notify_call">Индикация LED пропущенных вызовов</string>
@@ -661,7 +667,7 @@
     <string name="labelActivation">активация</string>
     <string name="labelDeactivation">Отключение</string>
     <string name="no_feature_code">Активация отсутсвует, пожалуйста, свяжитесь с оператором для получения кода активации.</string>
-    <string name="calllog_settings_title">Настройки Calllog</string>
+    <string name="calllog_settings_title">Настройки журнала вызовов</string>
     <string name="description_target_answer">Ответить</string>
     <string name="description_target_send_sms">Отправить SMS</string>
     <string name="description_target_decline">Отбой</string>
@@ -673,7 +679,7 @@
     <string name="respond_via_sms_canned_response_3">Я позвоню тебе позже.</string>
     <string name="respond_via_sms_canned_response_4">Не могу говорить. Позвони мне позже?</string>
     <string name="respond_via_sms_custom_message">Пользовательские сообщения ...</string>
-    <string name="respond_via_sms_confirmation_format">Сообщение отправлено в  %s.</string>
+    <string name="respond_via_sms_confirmation_format">Сообщение отправлено в %s.</string>
     <string name="respond_via_sms_setting_title">Быстрый ответ</string>
     <string name="respond_via_sms_setting_title_2">Редактировать быстрый ответ</string>
     <string name="respond_via_sms_setting_summary" />
@@ -689,10 +695,8 @@
     <string name="description_image_button_nine">9</string>
     <string name="description_image_button_star">10</string>
     <string name="description_image_button_zero">0</string>
-    <string name="description_image_button_pound">#</string>
+    <string name="description_image_button_pound">\#</string>
     <string name="description_search_button">Поиск</string>
     <string name="description_dial_button">набор</string>
     <string name="description_delete_button">стереть</string>
-    <string name="automatic_recording">Авто запись</string>
-    <string name="automatic_recording_sum">При вход. звонке, вкл. автомат. запись разг.</string>
 </resources>

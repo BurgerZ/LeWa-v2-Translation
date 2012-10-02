@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="alternates_for_a">àáâãäåæ</string>
     <string name="alternates_for_e">èéêë</string>
@@ -16,7 +16,7 @@
     <string name="english_ime_input_options">Параметры ввода</string>
     <string name="vibrate_on_keypress">Виброотклик клавиш</string>
     <string name="obey_haptic_feedback">Наследование отклика</string>
-    <string name="obey_haptic_feedback_summary">Не будет вибрировать, если виброотклик отключен глобально в настройках системы</string>
+    <string name="obey_haptic_feedback_summary">Не вибрировать, если тактильный отклик отключен в настройках системы</string>
     <string name="sound_on_keypress">Звук клавиш</string>
     <string name="popup_on_keypress">Увеличение нажатых</string>
     <string name="hit_correction">Исправлять опечатки</string>
@@ -57,7 +57,8 @@
     <string name="touch_to_continue">Чтобы продолжить, нажмите на эту подсказку »</string>
     <string name="touch_to_finish">Нажмите здесь, чтобы закрыть подсказку и начать вводить текст.</string>
     <string name="tip_to_open_keyboard"><b>Клавиатура появляется автоматически при касании текстового поля</b></string>
-    <string name="tip_to_view_accents"><b>Нажмите и удерживайте клавишу для отображения вариантов с диакритическими знаками \n(ø, ö, ô, ó и т. п.)</b></string>
+    <string name="tip_to_view_accents"><b>"Нажмите и удерживайте клавишу для отображения вариантов с диакритическими знаками 
+(ø, ö, ô, ó и т. п.)"</b></string>
     <string name="tip_to_open_symbols"><b>Для переключения между вводом цифр и символов используйте эту клавишу</b></string>
     <string name="tip_to_close_symbols"><b>Чтобы вернуться к буквенной клавиатуре, снова нажмите на эту клавишу</b></string>
     <string name="tip_to_launch_settings"><b>Чтобы изменить настройки клавиатуры (такие как автозавершение), нажмите и удерживайте эту клавишу</b></string>
@@ -93,10 +94,18 @@
     <string name="voice_input">Голосовой ввод</string>
     <string name="auto_submit">Автоматически отправлять по окончании голосового ввода</string>
     <string name="auto_submit_summary">Автоматически нажимать \"Ввод\" при поиске или переходе к следующему полю.</string>
-    <string name="open_the_keyboard"><b><font size="17">Открытие клавиатуры\n</font></b><font size="3">\n</font>Нажмите на любое текстовое поле.</string>
-    <string name="close_the_keyboard"><b><font size="17">Закрытие клавиатуры\n</font></b><font size="3">\n</font>Нажмите клавишу \"Назад\".</string>
-    <string name="touch_and_hold"><b><font size="17">Нажмите и удерживайте клавишу для вызова параметров\n</font></b><font size="3">\n</font>Доступ к пунктуационным и диакритическим знакам.</string>
-    <string name="keyboard_settings"><b><font size="17">Настройки клавиатуры\n</font></b><font size="3">\n</font>Нажмите и удерживайте клавишу <b>?123</b>.</string>
+    <string name="open_the_keyboard"><b><font size="17">"Открытие клавиатуры
+"</font></b><font size="3">"
+"</font>Нажмите на любое текстовое поле.</string>
+    <string name="close_the_keyboard"><b><font size="17">"Закрытие клавиатуры
+"</font></b><font size="3">"
+"</font>Нажмите клавишу \"Назад\".</string>
+    <string name="touch_and_hold"><b><font size="17">"Нажмите и удерживайте клавишу для вызова параметров
+"</font></b><font size="3">"
+"</font>Доступ к пунктуационным и диакритическим знакам.</string>
+    <string name="keyboard_settings"><b><font size="17">"Настройки клавиатуры
+"</font></b><font size="3">"
+"</font>Нажмите и удерживайте клавишу <b>?123</b>.</string>
     <string name="popular_domain_0">.com</string>
     <string name="popular_domain_1">.net</string>
     <string name="popular_domain_2">.org</string>

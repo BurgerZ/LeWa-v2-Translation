@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="swap_mode_entries">
+        <item>Режим файла</item>
+        <item>Swap раздел</item>
+    </string-array>
+    <string-array name="swap_mode_entries_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="swap_file_location_entries">
+        <item>/Папка данных</item>
+        <item>/Папка на карте памяти</item>
+    </string-array>
+    <string-array name="swap_file_location_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="swap_file_internal_size_entries">
+        <item>32M</item>
+        <item>64M</item>
+        <item>96M</item>
+    </string-array>
+    <string-array name="swap_file_internal_size_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="swap_file_sd_size_entries">
+        <item>64M</item>
+        <item>128M</item>
+        <item>256M</item>
+    </string-array>
+    <string-array name="swap_file_sd_size_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="swap_swappiness_entries">
+        <item>60</item>
+        <item>80</item>
+    </string-array>
+    <string-array name="swap_swappiness_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+</resources>

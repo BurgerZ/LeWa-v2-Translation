@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="full_wday_month_day_no_year">EEEE, d MMMM</string>
     <string name="app_label">Часы</string>
@@ -36,7 +36,7 @@
     <string name="minutes">%s мин.</string>
     <string name="every_day">каждый день</string>
     <string name="never">Не выбрано</string>
-    <string name="day_concat">,\u0020</string>
+    <string name="day_concat">", "</string>
     <string name="analog_gadget">Часы со стрелками</string>
     <string name="settings">Настройки</string>
     <string name="alarm_in_silent_mode_title">Включать всегда</string>
@@ -69,11 +69,12 @@
     <string name="color_picker">Цвет времени</string>
     <string name="color_picker_title">Цвет времени (Заставка)</string>
     <string name="color_picker_summary">Измените цвет времени на заставке</string>
+	<string name="color_picker_sample">11:45</string>
     <string name="color_picker_alpha">Прозрачность (Затемнение)</string>
     <string name="color_picker_red">Красный</string>
     <string name="color_picker_green">Зелёный</string>
     <string name="color_picker_blue">Синий</string>
     <string name="use_dual_mode_button">Одна кнопка</string>
-    <string name="use_dual_mode_button_on">Долгое нажатие на кнопке Отложить, будет отключать будильник.</string>
-    <string name="use_dual_mode_button_off">Разные кнопки Отложить и Отключить.</string>
+    <string name="use_dual_mode_button_on">Долгое нажатие на кнопке "Отложить", будет отключать будильник.</string>
+    <string name="use_dual_mode_button_off">Разные кнопки "Отложить" и "Отключить".</string>
 </resources>

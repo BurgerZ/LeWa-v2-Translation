@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Поиск Lewa</string>
+    <string name="app_setting">Настройки поиска</string>
+    <string name="app_setting_info">Поиск элементов</string>
+    <string name="app_setting_about">О программе</string>
+    <string name="system_app">Системные приложения</string>
+    <string name="user_app">Прикладные приложения</string>
+    <string name="system_setting">Системные настройки</string>
+    <string name="web_search">Поиск в интернете</string>
+    <string name="app_search">Поиск приложений</string>
+    <string name="find_no_associated_app">Не удается найти соответствующую программу!</string>
+    <string name="enter_app_error_prefix">Это</string>
+    <string name="enter_app_error_suffix">Невозможно открыть</string>
+    <string name="web_search_prefix">"Поиск в интернете "</string>
+    <string name="web_search_suffix">" Дополнительная информация"</string>
+    <string name="app_search_prefix">"Поиск в интернете "</string>
+    <string name="app_search_suffix">" Связанные приложения"</string>
+    <string name="select_browser">Браузер по умолчанию</string>
+    <string name="choose_browser">Выбрать браузер</string>
+    <string name="info_setting_message">Сообщения</string>
+    <string name="info_setting_message_str">В тексте сообщений</string>
+    <string name="info_setting_app">Приложения</string>
+    <string name="info_setting_app_str">Установленные приложения</string>
+    <string name="info_setting_image">Изображения</string>
+    <string name="info_setting_image_str">Фотографии, обои...</string>
+    <string name="info_setting_contact">Контакты</string>
+    <string name="info_setting_contact_str">Информация о контактах</string>
+    <string name="info_setting_music">Музыка</string>
+    <string name="info_setting_music_str">Музыкальные файлы</string>
+    <string name="info_setting_setting">Системные настройки</string>
+    <string name="info_setting_setting_str">В настройках</string>
+    <string name="info_setting_file">Другое</string>
+    <string name="info_setting_file_str">Другие файлы на карте памяти</string>
+    <string name="no_default_browser">Не выбран браузер по умолчанию</string>
+    <string name="sdcard_status_changed_title">Карта памяти не доступна</string>
+    <string name="sdcard_status_changed_msg">Убедитесь, что карта памяти вставлена, и телефон не находится в режиме передачи данных.</string>
+    <string name="type_ok">OK</string>
+</resources>
