@@ -28,8 +28,8 @@
     <string name="error_captcha_invalid">Проверка кода является недопустимым</string>
     <string name="error_password_invalid">Пароль должен быть не менее 6-20 символов</string>
     <string name="error_password_incorrect">Пароль неверный</string>
-    <string name="label_login">Войти</string>
-    <string name="label_register">Регистрировать</string>
+    <string name="label_login">Вход</string>
+    <string name="label_register">Регистрация</string>
     <string name="label_my_account">Моя учетная запись</string>
     <string name="label_register_sms">SMS-регистрацию</string>
     <string name="label_almost_done">Почти готово!</string>

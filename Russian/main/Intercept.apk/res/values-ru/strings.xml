@@ -155,5 +155,14 @@
     <string name="add2white_already_in_black">Вы хотите удалить черный список. Подтвердить?</string>
     <string name="delete_selected_item">Удалить выделенные номера?</string>
     <string name="dialog_tip">Советы</string>
-    <string name="intercept_whitenamelist_emp">Белый список пуст</string>
+    <string name="update_title">Обновить проверку SMS</string>
+    <string name="update_message">База перехвата SMS устарела, нажмите OK для обновления</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="cancel">Отмена</string>
+    <string name="noneedToUpdate">Вы используете последнюю базу перехвата</string>
+    <string name="updating">Найдено обновление базы перехвата</string>
+	<string name="checking">Проверка обновлений</string>
+    <string name="networkError">Ошибка сети, пожалуйста, провер</string>
+    <string name="menu_update_intelligence_intercept_library">Обновить</string>
+	<string name="updateSuccess">Обновление выполнено</string>
 </resources>
